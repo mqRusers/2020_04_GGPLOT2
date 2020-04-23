@@ -1,0 +1,77 @@
+14:00:39	 From  Jon Mifsud : Hi all, today's workshop will start at 2.15. You can find the resources at our GitHub page https://github.com/mqRusers/2020_04_GGPLOT2
+14:01:35	 From  Kate Dodds : Thanks Jon!
+14:02:03	 From  Elizabeth Seil : Hi Kate, are we download it?
+14:02:49	 From  Kate Dodds : library(tidyverse)
+14:03:12	 From  Kate Dodds : That's to check that you have everything installed correctly
+14:08:03	 From  Jon Mifsud : You can find the resources at our GitHub page https://github.com/mqRusers/2020_04_GGPLOT2
+14:13:40	 From  Elizabeth Seil : The fonts are so small, can we make them bigger?
+14:13:53	 From  Kate Dodds : Yip fonts will be bigger
+14:14:11	 From  Elizabeth Seil : but what about on my screen as well?
+14:14:31	 From  Richard Miller : In case anyone late missed the URL:https://github.com/mqRusers/2020_04_GGPLOT2
+14:14:44	 From  Liisa Kautto : when i open it in R cannot see the view as yours
+14:15:34	 From  Elizabeth Seil : cool, thanks
+14:16:09	 From  Richard Miller : Anyone who needs help can send me a chat message ...
+14:16:15	 From  Stephanie Deering : how will that recording be accessed?
+14:16:32	 From  Jon Mifsud : Likewise here to help if anyone needs it.
+14:16:37	 From  Stephanie Deering : amazing thanks!
+14:17:04	 From  Liisa Kautto : yes, cannot see for sections
+14:17:07	 From  Jon Mifsud : If you have not yet joined our Slack workspace you can do so here https://mqcoders.slack.com/
+14:17:34	 From  Liisa Kautto : still doing it
+14:17:48	 From  Liisa Kautto : sorry i was able join later
+14:17:50	 From  Hector Pacheco : Hi, sorry I was in another meeting
+14:18:34	 From  Hector Pacheco : Is someone recording this?
+14:18:38	 From  Tanya Rosewarne : The warning message mentioneds ggplot2 is that OK?
+14:19:10	 From  Hector Pacheco : I'm struggling with internet at home and it's really complicated for me to download data while I'm in a zoom meeting
+14:19:42	 From  Hector Pacheco : Could you please share the Git-Hub address to try to download the files?
+14:19:51	 From  Jon Mifsud : https://github.com/mqRusers/2020_04_GGPLOT2
+14:19:53	 From  Richard Miller : Sure
+14:20:37	 From  Hector Pacheco : Thanks!
+14:22:20	 From  Tanya Rosewarne : Bit bigger please
+14:22:20	 From  Elizabeth Seil : no
+14:22:23	 From  Monique Crane : bigger please
+14:22:38	 From  Elizabeth Seil : thanks
+14:22:42	 From  Tanya Rosewarne : Great. cheers
+14:22:43	 From  Rosanne Abrahamse : yes better :)
+14:22:44	 From  Richard Miller : good
+14:22:46	 From  TIANYU LIU : good, thanks
+14:23:53	 From  Jon Mifsud : Our GitHub page can be found here https://github.com/mqRusers/
+14:23:58	 From  Hector Pacheco : Sorry, how do I "clean" the "Environment" tab?
+14:24:21	 From  Rosanne Abrahamse : rm(list=ls()) 
+14:24:22	 From  Rosanne Abrahamse : I think
+14:24:42	 From  Jon Mifsud : yep!
+14:24:45	 From  Hector Pacheco : Yes!
+14:24:47	 From  Hector Pacheco : Excellent
+14:24:48	 From  Hector Pacheco : Thanks
+14:32:10	 From  Elizabeth Seil : sorry what does 4 = sign mean
+14:32:52	 From  Elizabeth Seil : how to finish a section?
+14:33:48	 From  Jon Mifsud : For anyone that just joined you can find the workshop resources at our GitHub page https://github.com/mqRusers/2020_04_GGPLOT2
+14:38:06	 From  Hector Pacheco : If tidyverse is already running nothing will appear in the console, right?
+14:38:28	 From  Hector Pacheco : Cool, thanks
+14:41:27	 From  Richard Miller : or "assignment" 
+14:44:50	 From  Richard Miller : anyone who needs help to catch up - feel free to chat directly to Jon or myself ...
+14:48:45	 From  Jon Mifsud : For anyone that just joined you can find the workshop resources at our GitHub page https://github.com/mqRusers/2020_04_GGPLOT2
+14:49:56	 From  Akhil puppala : okay
+14:55:17	 From  Richard Miller - Helper : the little broom deletes them all
+14:59:47	 From  Stephanie Deering : Is there a way to specify colours per data group?
+15:00:54	 From  Stephanie Deering : ok cool thanks :) sorry to jump ahead
+15:02:58	 From  Richard Miller - Helper : ggplot(data = PlotDat, aes(x = mpg, y = hp, colour = amFac)) + geom_point() + scale_color_manual(values = c('red', 'blue'))
+15:03:24	 From  Stephanie Deering : awesome thank you
+15:07:09	 From  Richard Miller - Helper : is colour and color the same thing ?
+15:11:49	 From  Rosanne Abrahamse : is it possible to use the shape to put in the actual values from your data next to the points?
+15:13:06	 From  Rosanne Abrahamse : okay thanks!
+15:13:59	 From  Jon Mifsud : I know there is a package that allows you to add the signif points, I haven't used it though! ggsignif
+15:22:49	 From  Stephanie Deering : Im getting an error with that line
+15:23:29	 From  Stephanie Deering : yep that's worked with the fun.y
+15:25:28	 From  Rosanne Abrahamse : ive seen 'stat' = identity quite a few times, what does that mean?
+15:28:36	 From  Jon Mifsud : my understanding is that stat() function tells ggplot2 that you want to use aesthetics produced by a statistic 
+15:45:35	 From  Hector Pacheco : I don't have ggthemes
+16:02:42	 From  Elizabeth Seil : excellent, many thanks
+16:02:50	 From  Tanya Rosewarne : Thank you!
+16:02:50	 From  Kimiko Tsukada : Thanks very much!
+16:02:59	 From  Jon Mifsud : If you have not yet joined our Slack workspace you can do so here https://mqcoders.slack.com/
+16:03:02	 From  Larissa Trompf : Thanks - very useful!
+16:03:03	 From  Hector Pacheco : Thanks Kate... I'll need to go deeper into R for sure, but this is a great guide to start!
+16:03:04	 From  Debbie Chamberlain : Thank you
+16:03:06	 From  Liisa Kautto : thank you!
+16:03:50	 From  Chris Payne : Thanks Kate. Really learned a lot and much to work through over time.
+16:04:46	 From  Laura Fernandez : Thanks Kate! a lot to take in :) 
